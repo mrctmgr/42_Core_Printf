@@ -6,13 +6,13 @@
 /*   By: mtumgor <mtumgor@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/30 00:43:27 by mtumgor           #+#    #+#             */
-/*   Updated: 2023/01/03 00:04:57 by mtumgor          ###   ########.fr       */
+/*   Updated: 2023/01/05 18:30:35 by mtumgor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_strlen(char *str)
+static int	ft_strlen(char *str)
 {
 	unsigned int	i;
 

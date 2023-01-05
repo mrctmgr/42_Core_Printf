@@ -6,13 +6,13 @@
 /*   By: mtumgor <mtumgor@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/30 01:04:20 by mtumgor           #+#    #+#             */
-/*   Updated: 2023/01/05 17:18:59 by mtumgor          ###   ########.fr       */
+/*   Updated: 2023/01/05 18:30:50 by mtumgor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_check(char c, va_list args)
+static int	ft_check(char c, va_list args)
 {
 	if (c == 'c')
 		return (ft_putchar(va_arg(args, int)));

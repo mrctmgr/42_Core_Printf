@@ -6,7 +6,7 @@
 /*   By: mtumgor <mtumgor@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/29 19:12:14 by mtumgor           #+#    #+#             */
-/*   Updated: 2023/01/05 17:17:58 by mtumgor          ###   ########.fr       */
+/*   Updated: 2023/01/05 18:31:59 by mtumgor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@ int		ft_putpointer(unsigned long num, char *chrs);
 int		ft_putstr(char *str);
 int		ft_putuint(unsigned int num);
 int		ft_printf(const char *str, ...);
-int		ft_check(char c, va_list macro);
 char	*ft_itoa(int num);
 
 #endif
